@@ -1,7 +1,13 @@
+import { useState, useEffect } from "react";
+import Header from "./components/Header";
+
 function App() {
+  const [income, setIncome] = useState([]);
+  const [totalIncome, setTotalIncome] = useState(0);
+
   return (
     <div className="App">
-      <h1>Hello World!</h1>
+      <Header />
     </div>
   );
 }
