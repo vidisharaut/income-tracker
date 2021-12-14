@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import Header from "./components/Header";
+import IncomeForm from "./components/IncomeForm";
 
 function App() {
   const [income, setIncome] = useState([]);
@@ -8,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <IncomeForm />
     </div>
   );
 }
