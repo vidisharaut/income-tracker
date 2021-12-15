@@ -1,8 +1,12 @@
 function IncomeItem({ income, index, removeIncome }) {
   let date = new Date(income.date);
   let day = date.getDate();
-  let month = date.getMonth();
+  var months = [12, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+
+  let month = Number(months[date.getMonth()]);
   let year = date.getFullYear();
+  console.log(month);
+  console.log(months);
 
   const removeHandle = (i) => {
     removeIncome(i);
@@ -11,7 +15,7 @@ function IncomeItem({ income, index, removeIncome }) {
   return (
     <div className="income-item">
       <button className="remove-item" onClick={() => removeHandle(index)}>
-        X
+        x
       </button>
       <div className="desc">{income.desc}</div>
       <div className="price--date">
