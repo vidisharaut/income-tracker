@@ -32,6 +32,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 15px;
 }
 
@@ -156,6 +157,18 @@ h1 {
 }
 .income-list .income-item:hover {
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 1080px) {
+  .form-inner input {
+    border-radius: 0;
+  }
+  .form-inner input[type="text"] {
+    border-radius: 8px 0 0 8px;
+  }
+  .form-inner input[type="date"] {
+    border-radius: 0 8px 8px 0;
+  }
 }
 
 @media screen and (max-width: 810px) {
