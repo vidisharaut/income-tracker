@@ -1,0 +1,71 @@
+[33mcommit e6ca3695b0800eb5c9dcdd8ba84775aa9452ab7b[m[33m ([m[1;36mHEAD -> [m[1;32madditional-changes[m[33m)[m
+Author: vidisharaut <vidisharaut27@gmail.com>
+Date:   Wed Dec 15 11:20:34 2021 +0530
+
+    fixed border radius of form input with screen 1080px by adding min-width property
+
+[33mcommit ee7e718b21b679f4b1dde15964fddffa8900a1c6[m
+Author: vidisharaut <vidisharaut27@gmail.com>
+Date:   Wed Dec 15 11:15:44 2021 +0530
+
+    align the items of header to center and fixed border radius of form input with screen 1080px
+
+[33mcommit 5b682b7c58d4830fc39fc0464e65a043ae588f72[m
+Author: vidisharaut <vidisharaut27@gmail.com>
+Date:   Wed Dec 15 11:04:23 2021 +0530
+
+    Fixed form styling
+
+[33mcommit 56725fe8124c8987c6931185c59190a93ecdc2ff[m
+Author: vidisharaut <vidisharaut27@gmail.com>
+Date:   Tue Dec 14 22:57:25 2021 +0530
+
+    Changed styles for button and income item
+
+[33mcommit a2be08b2b8db0672639f66eaf7d82aa613286172[m
+Author: vidisharaut <vidisharaut27@gmail.com>
+Date:   Tue Dec 14 21:45:17 2021 +0530
+
+    placed button outside form-inner class in incomeform component and styled income-form and form-inner
+
+[33mcommit fc059b7351363208d93713f27d0bb24562de3682[m
+Author: vidisharaut <vidisharaut27@gmail.com>
+Date:   Tue Dec 14 19:50:24 2021 +0530
+
+    Changed styling for total-income class
+
+[33mcommit 5d6f151819590bdede72b5d7977d5ddbb051bf0c[m[33m ([m[1;32mmaster[m[33m)[m
+Author: vidisharaut <vidisharaut27@gmail.com>
+Date:   Tue Dec 14 19:29:40 2021 +0530
+
+    Created IncomeItem and IncomeList for project
+
+[33mcommit 4ccd404e95cce86cdd9b20682cb6b644b5eb5611[m
+Author: vidisharaut <vidisharaut27@gmail.com>
+Date:   Tue Dec 14 16:05:39 2021 +0530
+
+    Added addIncome functionality to incomeForm and updated totalIncome functionality using useEffect
+
+[33mcommit ddc5371b210696b9c7970de2d15409619ee717e4[m
+Author: vidisharaut <vidisharaut27@gmail.com>
+Date:   Tue Dec 14 14:00:18 2021 +0530
+
+    Created IncomeForm for the project and imported to App
+
+[33mcommit 7629e13bb8aacd9f674d9222f41f4071a57f4e37[m
+Author: vidisharaut <vidisharaut27@gmail.com>
+Date:   Tue Dec 14 13:53:49 2021 +0530
+
+    Created Header for the project and imported to App
+
+[33mcommit 3ba55cc614d014b704e22295169f041fd2e22c9f[m
+Author: vidisharaut <vidisharaut27@gmail.com>
+Date:   Tue Dec 14 13:34:26 2021 +0530
+
+    Initialized create-react-app for the project income-tracker
+
+[33mcommit 54cc5889fa8211268ecc18d87f81dd1b345c5a91[m
+Author: vidisharaut <vidisharaut27@gmail.com>
+Date:   Tue Dec 14 13:26:44 2021 +0530
+
+    Initialize project using Create React App

@@ -26,7 +26,7 @@ body {
 }
 
 .App {
-  padding: 30px;
+  padding: 25px;
 }
 
 header {
@@ -151,7 +151,15 @@ h1 {
   min-width: 115px;
 }
 
-.income-list .income-item .price,
+.income-list .income-item .price--date {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.income-list .income-item .price {
+  min-width: 120px;
+}
 .income-list .income-item .date {
   min-width: 70px;
 }
@@ -172,6 +180,12 @@ h1 {
 }
 
 @media screen and (max-width: 810px) {
+  * {
+    font-size: 15px;
+  }
+  .total-income {
+    font-size: 17px;
+  }
   .form-inner {
     flex-direction: column;
     padding: 0;
