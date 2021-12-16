@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/income-tracker/static/css/main.1271c996.chunk.css",
+    "main.js": "/income-tracker/static/js/main.10dd6c2e.chunk.js",
+    "main.js.map": "/income-tracker/static/js/main.10dd6c2e.chunk.js.map",
+    "runtime-main.js": "/income-tracker/static/js/runtime-main.6638c3db.js",
+    "runtime-main.js.map": "/income-tracker/static/js/runtime-main.6638c3db.js.map",
+    "static/js/2.b4ce4351.chunk.js": "/income-tracker/static/js/2.b4ce4351.chunk.js",
+    "static/js/2.b4ce4351.chunk.js.map": "/income-tracker/static/js/2.b4ce4351.chunk.js.map",
+    "index.html": "/income-tracker/index.html",
+    "static/css/main.1271c996.chunk.css.map": "/income-tracker/static/css/main.1271c996.chunk.css.map",
+    "static/js/2.b4ce4351.chunk.js.LICENSE.txt": "/income-tracker/static/js/2.b4ce4351.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6638c3db.js",
+    "static/js/2.b4ce4351.chunk.js",
+    "static/css/main.1271c996.chunk.css",
+    "static/js/main.10dd6c2e.chunk.js"
+  ]
+}
